@@ -1,0 +1,15 @@
+.cus-btn{
+    text-decoration: none;
+}
+.btn{
+    background: #284d3b!important;
+    color: #fff!important;
+}
+.book{
+    box-shadow: 1px 8px 20px -8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bookDetails{
+    padding: 10px 20px 30px 20px;
+}

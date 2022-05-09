@@ -1,0 +1,34 @@
+.books{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+}
+.categories img{
+    width: 120px;
+}
+.categories div{
+    background-color: #5db8bc;
+    padding: 8px;
+    border-radius: 5px;
+}
+.supliars div{
+    background-color: #5db8bc;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    align-content: center;
+}
+.supliars{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+}

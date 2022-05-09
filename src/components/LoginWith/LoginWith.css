@@ -1,0 +1,9 @@
+.login-google{
+    cursor: pointer;
+    border: 1px solid #333;
+    padding: 8px 0;
+    border-radius: 50px;
+}
+.login-google img{
+    width: 24px;
+}

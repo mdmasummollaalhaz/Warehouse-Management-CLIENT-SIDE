@@ -1,0 +1,13 @@
+.my-book-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+
+}
+.my-book-list div{
+    background-color: azure;
+    padding: 16px;
+}
+.my-book-list div img{
+    width: 120px;
+}

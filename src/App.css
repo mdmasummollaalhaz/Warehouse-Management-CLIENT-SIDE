@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* Tablet view */
+@media only screen and (max-width: 768px) {
+  .res-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 16px;
+  }
+  .res-h{
+    font-size: 52px !important;
+  }
+}
+
+/* mobile view*/
+@media only screen and (max-width: 480px) {
+  .res-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 16px;
+  }
+  .res-h{font-size: 38px !important;}
+}

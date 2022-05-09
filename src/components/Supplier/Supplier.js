@@ -1,10 +1,14 @@
 import React from 'react';
-import './Supplier.css';
+import book from '../../images/biography.png'
+import './Supplier.css'
 
-const Supplier = () => {
+const Supplier = (props) => {
+    const { name, location } = props.supplier
     return (
-        <div>
-            <h2>Supplier</h2>
+        <div className='supplier py-3'>
+            <img src={book} alt="book" />
+            <h4 className='mt-3'>{name}</h4>
+            <p className='mb-0'>{location}</p>
         </div>
     );
 };
